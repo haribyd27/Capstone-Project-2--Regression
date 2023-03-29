@@ -46,7 +46,7 @@ Here the outliers are removed based on IQR method and a “fence” is built out
 8. Modeling: The categorical variables cannot be fed into machine learning algorithm directly, hence one hot encoding is performed on these varibles. The dataset is split into test and train data set by considering the test size to be 20% of total dataset. The performance of linear regression algorithm is evaluated using R2-Square and Adjusted R2-Square.
 
 # Conclusions
-1. Sales and Customer scatter plot showed a direct positive relation between them (Shown by scatter plot in chart 12)
-2. most of the stores have competation distance in the range 0-10 kms, indicates that the competitor stores weren't that far each other. The stores which are not from each other saw more sales than stores located far away indicating competition in busy locations vs remote locations (Shown bt scatter plot in chart 13)
+1. Sales and Customer scatter plot showed a direct positive relation between them.
+2. most of the stores have competation distance in the range 0-10 kms, indicates that the competitor stores weren't that far each other. The stores which are not from each other saw more sales than stores located far away indicating competition in busy locations vs remote locations.
 3. Storeype b has highest avaerage sales compared to other storetypes.The reasons include all three kinds of assortments specially assortment level b which is only available at type b stores.
 4. Upon analysis on the given dataset, it can be established the model developed is able to explain 89.5878 % of the variations.
